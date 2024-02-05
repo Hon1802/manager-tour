@@ -9,3 +9,4 @@
 ormconfig.json
 .eslintrc.json
 tsconfig.json
+.vercel
