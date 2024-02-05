@@ -1,0 +1,11 @@
+/node_modules
+/vendor
+/.idea
+.idea/
+.env
+/dist
+.editorconfig
+/.vscode
+ormconfig.json
+.eslintrc.json
+tsconfig.json
