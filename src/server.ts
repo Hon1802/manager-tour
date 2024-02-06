@@ -3,6 +3,7 @@ import express from "express"
 import dotenv from 'dotenv';
 import cors from 'cors';
 import { routes } from './routes';
+
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 3006;
@@ -23,7 +24,7 @@ app.use(cors(allowedOrigins));
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-
+//routes
 app.use('/', routes);
 
 app.listen(port, () =>{
